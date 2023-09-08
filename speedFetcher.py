@@ -6,7 +6,7 @@ def fetch_typing_speed():
 
     if response.status_code == 200:
         data = response.json()
-        typing_speed = data['tstats']['wpm']
+        typing_speed = data['tstats']['recentAvgWpm']
         return typing_speed
     else:
         return None
