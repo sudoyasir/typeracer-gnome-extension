@@ -3,6 +3,6 @@
     "name" : "Type Racer",
     "stylesheet": ["extension.css"],
     "shell-version" : ["43", "44"],
-    "url" : "",
+    "url" : "https://github.com/yasir2002/typeracer-gnome-extension",
     "uuid" : "typeracer@yasir2002.com"
 }
