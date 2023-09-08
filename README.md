@@ -14,23 +14,19 @@ To use this extension, follow these steps:
    - GNOME Shell (compatible with versions 3.36 and later)
    - Python 3
 
-
 2. **Clone the Repository:** Clone this GitHub repository to your local machine using the following command:
 
    ```bash
    git clone https://github.com/yourusername/gnome-typing-speed-extension.git
-
 
 3. **Install the Extension:** Copy the gnome-typing-speed-extension directory to your GNOME Shell extensions directory:
 
    ```bash
    cp -r gnome-typing-speed-extension ~/.local/share/gnome-shell/extensions/
 
-
 4. **Enable the Extension:** Open the GNOME Shell Extensions app or use the gnome-extensions command to enable the "Type Racer" Extension.
 
 5. **Customize:** You can customize the extension's behavior by modifying the extension.js file. For example, you can change the update interval or styling.
-
 
 ## Usage
 Once the extension is enabled, you will see your average typing speed displayed in the top panel. The typing speed is updated at regular intervals (default is every 30 seconds).
