@@ -1,0 +1,8 @@
+{
+    "description" : "Shows average typing speed of last 10 races played typeracer.com",
+    "name" : "Type Racer",
+    "stylesheet": ["extension.css"],
+    "shell-version" : ["43", "44"],
+    "url" : "",
+    "uuid" : "typeracer@yasir2002.com"
+}
