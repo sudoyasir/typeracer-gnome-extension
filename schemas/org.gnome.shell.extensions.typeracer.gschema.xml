@@ -1,0 +1,14 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.typeracer" path="/org/gnome/shell/extensions/typeracer/">
+    <key name="message" type="s">
+      <default>'Loading...'</default>
+      <summary>The text to display before the typing speed.</summary>
+      <description>This text will appear before the typing speed in the panel.</description>
+    </key>
+    <key name="command" type="s">
+      <default>''</default>
+      <summary>The command to run when clicking on the extension.</summary>
+      <description>Enter a command to run when clicking on the extension (optional).</description>
+    </key>
+  </schema>
+</schemalist>

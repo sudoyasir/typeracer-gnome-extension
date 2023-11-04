@@ -26,7 +26,7 @@ function init() {
 function enable() {
     // Fetch and update the typing speed every 30 seconds (adjust as needed)
     fetchTypingSpeed();
-    let updateInterval = Mainloop.timeout_add_seconds(30, fetchTypingSpeed);
+    let updateInterval = Mainloop.timeout_add_seconds(10, fetchTypingSpeed);
 
     // Insert your extension at the desired position in the panel
     Main.panel.addToStatusArea('Type Racer', panelButton, 2, 'left');
